@@ -49,7 +49,7 @@ export default function Navbar() {
           <li><a href="#contact" className={linkClass("contact")}>Contact</a></li>
           <li>
   <a
-    href="/BENEDICT WAMBUA MUSYOKA CV .pdf"
+    href="/CV.pdf"
     download
     className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold transition"
   >
@@ -80,7 +80,7 @@ export default function Navbar() {
           <a onClick={closeMenu} href="#contact" className="block">Contact</a>
           <a
   onClick={closeMenu}
-  href="/BENEDICT WAMBUA MUSYOKA CV .pdf"
+  href="/CV.pdf"
   download
   className="block bg-blue-500 text-white px-4 py-2 rounded-lg font-semibold"
 >
