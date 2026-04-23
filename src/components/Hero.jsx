@@ -39,6 +39,10 @@ export default function Hero() {
 
 </div>
 
+<p className="text-gray-500 mt-6 text-sm">
+  Open to frontend roles & freelance opportunities
+</p>
+
     </section>
   );
 }
