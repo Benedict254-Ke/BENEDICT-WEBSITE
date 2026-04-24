@@ -20,4 +20,8 @@ function App() {
   );
 }
 
+<p className="text-center text-gray-400 text-sm mt-10">
+        Built by Lulu B 💻
+      </p>
+      
 export default App;
