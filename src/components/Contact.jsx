@@ -132,6 +132,10 @@ export default function Contact() {
 
         </div>
 
+        <p className="text-center text-gray-400 text-sm mt-10">
+        Built by Lulu B 💻
+      </p>
+
       </div>
 
     </motion.section>
