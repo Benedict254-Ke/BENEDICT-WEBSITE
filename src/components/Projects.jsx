@@ -103,16 +103,16 @@ export default function Projects() {
           {projects.map((project, index) => (
             <motion.div
               key={index}
-              whileHover={{ y: -8 }}
+             whileHover={{ y: -10, scale: 1.02 }}
               transition={{ duration: 0.3 }}
               onClick={() => setSelectedProject(project)}
               className="bg-gray-900 rounded-xl overflow-hidden shadow-lg cursor-pointer border border-gray-700 hover:border-blue-400 transition"
             >
               <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-48 object-cover"
-              />
+  src={project.image}
+  alt={project.title}
+  className="w-full h-48 object-cover transition duration-500 group-hover:scale-110"
+/>
 
               <div className="p-6 text-left">
                 <h3 className="text-xl font-bold mb-2">
